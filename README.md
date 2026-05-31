@@ -8,31 +8,31 @@
 
 Метрика: среднее RMSE по трём таргетам.
 
-## Структура проекта
+## Структура проекта  
 
-├── analysis/
-│   └── data_analysis.ipynb                     # EDA и предобработка данных
-├── data/
+├── analysis/  
+│   └── data_analysis.ipynb                     # EDA и предобработка данных  
+├── data/  
 │   ├── raw/
-│   │   ├── train.csv                           # Исходный трейн (751 молекула)
-│   │   └── test.csv                            # Исходный тест (250 молекул)
-│   └── processed/
-│       ├── train_final.csv                     # Финальный очищенный трейн
-│       ├── test_final.csv                      # Финальный очищенный тест
-│       ├── train_with_engineered_features.csv
-│       └── test_with_engineered_features.csv
-├── models/
-│   ├── data_analysis_boosts_datamain_2targ_FOR_GIT.ipynb
-│   ├── data_analysis_boosts_datamain_3targ_OPTUNA_FINAL_FOR_GITHUB_CORRNAMES.ipynb
-│   ├── data_analysis_boosts_dataEF_2targ_FOR_GIT.ipynb
-│   ├── data_analysis_boosts_dataEF_3targ_OPTUNA_FINAL_FOR_GIT.ipynb
-│   └── ensembles_4combinations_2datasets_3targets.ipynb
-├── final_model/
-│   └── data_analysis_boosts_datamain_3targ_OPTUNA_FINAL_FOR_GITHUB_CORRNAMES.ipynb
-├── screenshots/
-│   ├── best_result.png
-│   └── leaderboard_chemai.png
-├── README.md
+│   │   ├── train.csv                           # Исходный трейн (751 молекула)  
+│   │   └── test.csv                            # Исходный тест (250 молекул)  
+│   └── processed/  
+│       ├── train_final.csv                     # Финальный очищенный трейн  
+│       ├── test_final.csv                      # Финальный очищенный тест  
+│       ├── train_with_engineered_features.csv  
+│       └── test_with_engineered_features.csv  
+├── models/  
+│   ├── data_analysis_boosts_datamain_2targ_FOR_GIT.ipynb  
+│   │   ├── data_analysis_boosts_datamain_3targ_OPTUNA_FINAL_FOR_GITHUB_CORRNAMES.ipynb  
+│   │   ├── data_analysis_boosts_dataEF_2targ_FOR_GIT.ipynb  
+│   │   ├── data_analysis_boosts_dataEF_3targ_OPTUNA_FINAL_FOR_GIT.ipynb  
+│   │   └── ensembles_4combinations_2datasets_3targets.ipynb  
+│   ├── final_model/  
+│   │   └── data_analysis_boosts_datamain_3targ_OPTUNA_FINAL_FOR_GITHUB_CORRNAMES.ipynb  
+├── screenshots/  
+│   ├── best_result.png  
+│     └── leaderboard_chemai.png  
+├── README.md  
 └── requirements.txt
 
 ## Данные
