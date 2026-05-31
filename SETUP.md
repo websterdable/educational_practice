@@ -3,8 +3,8 @@
 ## 1. Клонирование репозитория
 
 ```bash
-git clone https://github.com/sidagor/educational_practice.git
-cd educational_practice
+https://github.com/sidagor/educational_practice_DPO_4_team.git
+cd educational_practice_DPO_4_team
 ```
 
 ## 2. Установка зависимостей
