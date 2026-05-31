@@ -33,6 +33,9 @@
 ├── screenshots/
 │   ├── best_result.png
 │   └── leaderboard_chemai.png
+├── report/
+│   ├── presentation.pptx
+│   └── report_DPO4.webm
 ├── .gitignore
 ├── README.md
 ├── requirements.txt
